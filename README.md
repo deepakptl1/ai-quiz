@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧠 AI Adaptive Assessment Platform
 
-## Getting Started
+An AI-powered quiz and adaptive assessment platform built with **Next.js** and **MongoDB**.
 
-First, run the development server:
+The platform is designed to provide a more personalized assessment experience by adapting the quiz flow based on the user's performance.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Key Features
+
+* 🧠 **Adaptive Assessment** — dynamically adjusts the assessment experience based on performance
+* 📝 **Interactive Quizzes** — structured question-based assessments
+* ⏭️ **Skip & Next** — flexible navigation between questions
+* ⬅️ **Previous** — revisit previously answered questions
+* 📊 **Performance Tracking** — evaluate assessment performance
+* 🔐 **Authentication** — secure user authentication
+* 💾 **MongoDB Integration** — persistent storage for users and assessment data
+* 📱 **Responsive UI** — works across desktop and mobile devices
+
+## 🛠️ Tech Stack
+
+* **Frontend:** Next.js, React, JavaScript
+* **Backend:** Next.js
+* **Database:** MongoDB
+* **Authentication:** NextAuth.js
+* **Styling:** CSS
+* **Tools:** Git, GitHub
+
+## 📂 Project Structure
+
+```text
+ai-quiz/
+├── app/          # Application routes and UI
+├── lib/          # Utility and database logic
+├── public/       # Static assets
+├── auth.js       # Authentication configuration
+├── package.json
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Project Goal
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+The goal of this project is to move beyond traditional static quizzes by creating an **adaptive assessment system** that can provide a more personalized testing experience.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔮 Future Improvements
 
-## Learn More
+* AI-generated questions
+* Difficulty prediction and adjustment
+* Personalized learning recommendations
+* Detailed analytics dashboard
+* Improved assessment scoring
 
-To learn more about Next.js, take a look at the following resources:
+## 👨‍💻 Author
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Deepak Patil**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* GitHub: https://github.com/deepakptl1
+* LinkedIn: https://www.linkedin.com/in/deepak-patil-110603307
